@@ -21,7 +21,7 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 
 ### What I learned
 
-
+- react-icons package
 
 ### Useful resources
 
