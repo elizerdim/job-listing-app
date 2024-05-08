@@ -63,7 +63,18 @@ import { Link } from 'react-router-dom'
 // other code
 ```
 
+- &lt;NavLink&gt; - adds active links to nav links - styling can be changed conditionally using isActive
+
+```js
+import { NavLink } from "react-router-dom";
+// other code
+
+<NavLink to="/jobs" className={({ isActive }) => isActive ? 'bg-black' : ''}>
+  Jobs
+</NavLink>
+```
+
 ### Useful resources
 
 - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) - Setting up Tailwind CSS in a Vite project.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the docs
