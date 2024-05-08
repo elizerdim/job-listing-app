@@ -74,7 +74,11 @@ import { NavLink } from "react-router-dom";
 </NavLink>
 ```
 
+- json-server package
+
 ### Useful resources
 
 - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) - Setting up Tailwind CSS in a Vite project.
 - [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the docs
+- [react-icons package](https://www.npmjs.com/package/react-icons) - React Icons npm package
+- [json-server package](https://www.npmjs.com/package/json-server) - Json Server npm package
