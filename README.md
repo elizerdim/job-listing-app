@@ -82,6 +82,16 @@ import { NavLink } from "react-router-dom";
 'http://localhost:5000/jobs?_limit=3'
 ```
 
+### Continued development
+
+Here are some things mentioned in the tutorial that I would like to look into:
+
+Fetching data:
+- [React Suspense YouTube tutorial](https://www.youtube.com/watch?v=NTDJ-NQ32_E&list=PL4EX4Aw5_AFvNv2_Za_R8NOI-eTs8Ybmt&index=182&t=1s) from Traversy Media
+- [React Query npm package](https://www.npmjs.com/package/react-query)
+- [swr](https://www.npmjs.com/package/swr)
+- [React 19 features YouTube video](https://www.youtube.com/watch?v=EPaLg4U_K1o) from Traversy Media
+
 ### Useful resources
 
 - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) - Setting up Tailwind CSS in a Vite project.
