@@ -22,6 +22,46 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 ### What I learned
 
 - react-icons package
+- React Router - used for creating single-page apps that allow navigating without refreshing the page
+
+```js
+import { 
+  Route, 
+  createBrowserRouter, 
+  createRoutesFromElements,
+  RouterProvider 
+} from 'react-router-dom'
+// other code
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+      <Route path="/jobs" element={<JobsPage />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Route>
+  )
+)
+
+export default function App() {
+  return <RouterProvider router={router} />
+}
+```
+
+- &lt;Link&gt; from react-router-dom - unlike &lt;a&gt; tag, this element does not reload the whole page, creating a better user experience
+
+```js
+import { Link } from 'react-router-dom'
+
+// other code
+<Link
+  to="/jobs"
+  className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
+>
+  Browse Jobs
+</Link>
+// other code
+```
 
 ### Useful resources
 
