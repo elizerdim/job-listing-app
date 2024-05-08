@@ -22,7 +22,7 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 ### What I learned
 
 - react-icons package
-- React Router - used for creating single-page apps that allow navigating without refreshing the page
+- React Router - used for creating single-page apps that allow navigating without refreshing the page:
 
 ```js
 import { 
@@ -48,7 +48,7 @@ export default function App() {
 }
 ```
 
-- &lt;Link&gt; from react-router-dom -- unlike the &lt;a&gt; tag, &lt;Link&gt; element does not reload the whole page on click, creating a better user experience
+- &lt;Link&gt; from react-router-dom -- unlike the &lt;a&gt; tag, &lt;Link&gt; element does not reload the whole page on click, creating a better user experience:
 
 ```js
 import { Link } from 'react-router-dom'
@@ -63,7 +63,7 @@ import { Link } from 'react-router-dom'
 // other code
 ```
 
-- &lt;NavLink&gt; - adds active links to nav links - styling can be changed conditionally using isActive
+- &lt;NavLink&gt; - adds active links to nav links - styling can be changed conditionally using isActive:
 
 ```js
 import { NavLink } from "react-router-dom";
@@ -77,10 +77,16 @@ import { NavLink } from "react-router-dom";
 - json-server package - simulates a RESTful API using a JSON file as the data source
 - ```try...catch...finally``` statement for async functions - finally runs whether the operation was successful or not
 - react-spinners package - a package for loading spinners
-- Fetch results can be limited to, for example 3 elements, by adding ```'?_limit=3'``` at the end of the url
+- Fetch results can be limited to, for example 3 elements, by adding ```'?_limit=3'``` at the end of the url:
 ```
 'http://localhost:5000/jobs?_limit=3'
 ```
+- The colon in the path signifies that the value is dynamic:
+```js
+<Route path="/jobs/:id" element={<JobPage />} />
+```
+- ```useParams``` hook from react-router-dom returns an object of key/value pairs of the dynamic params from the current URL that were matched by the &lt;Route path&gt;
+- ```useLoaderData``` hook from react-router-dom provides the value returned from the route loader.
 
 ### Continued development
 
