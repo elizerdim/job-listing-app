@@ -48,7 +48,7 @@ export default function App() {
 }
 ```
 
-- &lt;Link&gt; from react-router-dom - unlike &lt;a&gt; tag, this element does not reload the whole page, creating a better user experience
+- &lt;Link&gt; from react-router-dom -- unlike the &lt;a&gt; tag, &lt;Link&gt; element does not reload the whole page on click, creating a better user experience
 
 ```js
 import { Link } from 'react-router-dom'
@@ -74,7 +74,13 @@ import { NavLink } from "react-router-dom";
 </NavLink>
 ```
 
-- json-server package
+- json-server package - simulates a RESTful API using a JSON file as the data source
+- ```try...catch...finally``` statement for async functions - finally runs whether the operation was successful or not
+- react-spinners package - a package for loading spinners
+- Fetch results can be limited to, for example 3 elements, by adding ```'?_limit=3'``` at the end of the url
+```
+'http://localhost:5000/jobs?_limit=3'
+```
 
 ### Useful resources
 
@@ -82,3 +88,4 @@ import { NavLink } from "react-router-dom";
 - [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the docs
 - [react-icons package](https://www.npmjs.com/package/react-icons) - React Icons npm package
 - [json-server package](https://www.npmjs.com/package/json-server) - Json Server npm package
+- [react-spinners package](https://www.davidhu.io/react-spinners/) - React Spinners npm package
