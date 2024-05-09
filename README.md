@@ -22,6 +22,8 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 - [react-router-dom npm package](https://www.npmjs.com/package/react-router-dom)
 - [react-spinners npm package](https://www.npmjs.com/package/react-spinners)
 - [json-server npm package](https://www.npmjs.com/package/json-server)
+- [nanoid npm package](https://www.npmjs.com/package/nanoid)
+- [react-toastify npm package](https://www.npmjs.com/package/react-toastify)
 
 ### What I learned
 
@@ -98,6 +100,8 @@ import { NavLink } from "react-router-dom";
 ```js
 const confirm = window.confirm('Are you sure you want to delete this listing?');
 ```
+
+- react-toastify package - used for adding notifications to the app
 
 - Modifications:
   - I added ```nanoid``` to AddJobPage because the tutor forgot to add an id property to the new job object to be sent to the API.

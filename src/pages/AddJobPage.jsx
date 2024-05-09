@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 export default function AddJobPage({ addJobOnSubmit }) {
   const [title, setTitle] = useState("");
@@ -14,10 +15,10 @@ export default function AddJobPage({ addJobOnSubmit }) {
   const [contactPhone, setContactPhone] = useState("");
 
   const navigate = useNavigate();
-  
+
   function handleSubmit(e) {
     e.preventDefault();
-    
+
     const newJob = {
       id: nanoid(),
       title,
@@ -32,9 +33,10 @@ export default function AddJobPage({ addJobOnSubmit }) {
         contactPhone,
       },
     };
-    
+
     addJobOnSubmit(newJob);
-    return navigate('/jobs');
+    toast.success("Job added successfully");
+    return navigate("/jobs");
   }
 
   return (
