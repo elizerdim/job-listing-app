@@ -1,10 +1,9 @@
-import { useParams, useLoaderData, useNavigate } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
 export default function JobPage({ deleteJobOnClick }) {
-  const { id } = useParams();
   const job = useLoaderData();
   const navigate = useNavigate();
 
