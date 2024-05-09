@@ -13,13 +13,25 @@ import AddJobPage from "./pages/AddJobPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
+  //Add new job
+  async function addJob(job) {
+    await fetch("/api/jobs/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(job),
+    });
+    return;
+  }
+
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/jobs" element={<JobsPage />} />
         <Route path="/jobs/:id" element={<JobPage />} loader={jobLoader} />
-        <Route path="/add-job" element={<AddJobPage />} />
+        <Route path="/add-job" element={<AddJobPage addJobOnSubmit={addJob} />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )

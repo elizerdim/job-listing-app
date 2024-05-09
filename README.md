@@ -88,6 +88,17 @@ import { NavLink } from "react-router-dom";
 - ```useParams``` hook from react-router-dom returns an object of key/value pairs of the dynamic params from the current URL that were matched by the &lt;Route path&gt;
 - ```useLoaderData``` hook from react-router-dom provides the value returned from the route loader.
 
+- ```useNavigate``` hook from react-router-dom 
+
+- Modifications:
+  - I added ```nanoid``` to AddJobPage because the tutor forgot to add an id property to the new job object to be sent to the API.
+
+- Extensions:
+  - Prettier
+  - ES7+ React/Redux/React-Native snippets
+  - Console Ninja
+  - Multiple cursor case preserve
+
 ### Continued development
 
 Here are some things mentioned in the tutorial that I would like to look into:
