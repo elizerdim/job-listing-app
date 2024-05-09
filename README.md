@@ -4,12 +4,7 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-### Links
-
-- [View Code](https://www.example.com)
-- [Live Preview](https://www.example.com)
+![](./screenshot.jpeg)
 
 ### Built with
 
