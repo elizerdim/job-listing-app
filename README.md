@@ -18,6 +18,10 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 - JavaScript
 - React
 - Tailwind
+- [react-icons npm package](https://www.npmjs.com/package/react-icons)
+- [react-router-dom npm package](https://www.npmjs.com/package/react-router-dom)
+- [react-spinners npm package](https://www.npmjs.com/package/react-spinners)
+- [json-server npm package](https://www.npmjs.com/package/json-server)
 
 ### What I learned
 
@@ -90,6 +94,11 @@ import { NavLink } from "react-router-dom";
 
 - ```useNavigate``` hook from react-router-dom 
 
+- window.confirm('') - returns a boolean
+```js
+const confirm = window.confirm('Are you sure you want to delete this listing?');
+```
+
 - Modifications:
   - I added ```nanoid``` to AddJobPage because the tutor forgot to add an id property to the new job object to be sent to the API.
 
@@ -112,7 +121,7 @@ Fetching data:
 ### Useful resources
 
 - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) - Setting up Tailwind CSS in a Vite project.
-- [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the docs
+- [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the react router docs
 - [react-icons package](https://www.npmjs.com/package/react-icons) - React Icons npm package
 - [json-server package](https://www.npmjs.com/package/json-server) - Json Server npm package
 - [react-spinners package](https://www.davidhu.io/react-spinners/) - React Spinners npm package

@@ -1,20 +1,6 @@
 {
   "jobs": [
     {
-      "id": "1",
-      "title": "Senior React Developer",
-      "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
       "id": "2",
       "title": "Front-End Engineer (React & Redux)",
       "type": "Full-Time",
@@ -25,20 +11,6 @@
         "name": "Veneer Solutions",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
         "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "3",
-      "title": "React.js Dev",
-      "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
         "contactPhone": "555-555-5555"
       }
     },
@@ -85,43 +57,15 @@
       }
     },
     {
-      "id": "ftWoAlIYDHvwn2d02vTk6",
-      "title": "Test Job",
-      "type": "Part-Time",
-      "description": "This is an awesome opportunity",
+      "id": "KH-qvJav1-LqcVbLgffZG",
+      "title": "Test 1",
+      "type": "Full-Time",
+      "description": "test test test ",
       "location": "Istanbul",
       "salary": "Under $50K",
       "company": {
         "name": "Test Company",
         "description": "This is an awesome company",
-        "contactEmail": "test@testmail.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "FA4tZfhbjK5iq8W2ecUvn",
-      "title": "Test 2",
-      "type": "Remote",
-      "description": "Another test job",
-      "location": "Testland",
-      "salary": "$80K - 90K",
-      "company": {
-        "name": "Tested Company",
-        "description": "This is a tested and respected company",
-        "contactEmail": "test@hottestmail.com",
-        "contactPhone": "555-555-5551"
-      }
-    },
-    {
-      "id": "m4lfz0qTQ7AURJiBNtASd",
-      "title": "test test",
-      "type": "Full-Time",
-      "description": "test test test",
-      "location": "test",
-      "salary": "Under $50K",
-      "company": {
-        "name": "test",
-        "description": "test test test",
         "contactEmail": "test@testmail.com",
         "contactPhone": "555-555-5555"
       }
