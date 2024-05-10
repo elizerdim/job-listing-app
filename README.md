@@ -6,21 +6,18 @@ This is a [tutorial](https://www.youtube.com/watch?v=LDB4uaJ87e0&list=PL4EX4Aw5_
 
 ![](./screenshot.jpeg)
 
-### Built with
+## Built with
 
-- HTML
-- CSS
-- JavaScript
 - React
 - Tailwind
-- [react-icons npm package](https://www.npmjs.com/package/react-icons)
-- [react-router-dom npm package](https://www.npmjs.com/package/react-router-dom)
-- [react-spinners npm package](https://www.npmjs.com/package/react-spinners)
-- [json-server npm package](https://www.npmjs.com/package/json-server)
-- [nanoid npm package](https://www.npmjs.com/package/nanoid)
-- [react-toastify npm package](https://www.npmjs.com/package/react-toastify)
+- [react-icons](https://www.npmjs.com/package/react-icons) npm package
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) npm package
+- [react-spinners](https://www.npmjs.com/package/react-spinners) npm package
+- [json-server](https://www.npmjs.com/package/json-server) npm package
+- [nanoid](https://www.npmjs.com/package/nanoid) npm package
+- [react-toastify](https://www.npmjs.com/package/react-toastify) npm package
 
-### What I learned
+## What I learned
 
 - react-icons package
 - React Router - used for creating single-page apps that allow navigating without refreshing the page:
@@ -107,7 +104,7 @@ const confirm = window.confirm('Are you sure you want to delete this listing?');
   - Console Ninja
   - Multiple cursor case preserve
 
-### Continued development
+## Continued development
 
 Here are some things mentioned in the tutorial that I would like to look into:
 
@@ -117,7 +114,7 @@ Fetching data:
 - [swr](https://www.npmjs.com/package/swr)
 - [React 19 features YouTube video](https://www.youtube.com/watch?v=EPaLg4U_K1o) from Traversy Media
 
-### Useful resources
+## Useful resources
 
 - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) - Setting up Tailwind CSS in a Vite project.
 - [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) - React Router tutorial from the react router docs
